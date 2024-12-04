@@ -118,7 +118,7 @@ function App() {
 
         {/* content portion */}
       </div>
-      {!data && (
+      {data && (
         <p
           style={{
             fontFamily: "roboto",
